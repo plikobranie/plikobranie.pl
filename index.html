@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<html lang="pl">
+    <title>Plikobranie</title>
+    <!--English name site <title>FileTaking</title-->
+    </head>
+    <body>
+        <div id="menuSite">
+            <center><h1 style="background-color:orange; width:200px;" id="title">Plikobranie.pl</h1></center>
+            <p><button>Strona Główna</button> <button>Rodzaje</button> <button>Opis</button> <button>Informacje</button> <button>Pliki Serwisu</button> <button onclick="whiteTheme()">Motyw Biały</button> <button>Aukcje</button></p>
+            <p><button>Pobierz PBHelper+</button> <button>Socjalmedia</button> <button>Alternatywy hostu</button> <button>Wersja Mobilna</button></p>
+        </div>
+        <!--Odstęp pomiędzy menuSite & infoSite-->
+        <div id="infoSite">
+<center><h1>Ogłoszenia Parafialne</h1></center>
+{INFO-404-FILE-ERROR}
+        </div>
+        <Script>
+            function whiteTheme(){
+                document.body.style.backgroundColor = "white";
+                document.body.style.color = "black";
+                document.getElementById("title").style.color = "white";
+            }
+        </Script>
+        <style>
+            #menuSite{
+                background-color:black;
+                border:solid 2px orange;
+                font-family:consolas;
+            }
+            body{
+                background-color: black;
+                color: white;
+                font-family: consolas;
+                border:solid 2px orange;
+            }
+            button{
+                background-color: black;
+                font-family: consolas;
+                color:white;
+                font-size:24px;
+                
+            }
+
+            </style>
+    </body>
+    
